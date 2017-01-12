@@ -27,7 +27,7 @@ dlist <- c("AirPassengers", "BJsales", "BOD", "CO2", "ChickWeight", "DNase",
            "trees", "uspop", "volcano", "warpbreaks", "women")
 
 # Sample an entry from the list
-data.label <- as.character(sample(dlist, 1))
+data.label <- sample(dlist, 1)
 
 # Load the entry into a dataframe called "df"
 df <- get(data.label)
